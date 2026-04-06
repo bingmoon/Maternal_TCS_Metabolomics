@@ -8,7 +8,7 @@ This study translates pre-clinical murine metabolomic data (Project PR002895 / S
 
 *   `data/`: Contains the raw positive (`MSdata_ST004597_1.txt`) and negative (`MSdata_ST004597_2.txt`) ion mode mass spectrometry matrices. *(Note: Clinical metadata is dynamically fetched from the NIH NMDR cloud API during script execution).*
 *   `scripts/`: Contains four modular R scripts for data fusion, machine learning (RF, LASSO, PLS-DA), statistical evaluation, and co-metabolic network construction.
-*   `results/`: Directory for output visualization figures (PDFs) and Supplementary Tables (CSVs).
+
 
 ## 🚀 How to Run
 
