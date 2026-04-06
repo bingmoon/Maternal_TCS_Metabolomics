@@ -1,0 +1,36 @@
+# Peripheral Metabolic Profiling of Maternal Environmental Exposure
+
+This repository contains the complete, reproducible R scripts and raw data files for the machine-learning-driven metabolomic analysis of maternal triclosan (TCS) exposure. 
+
+This study translates pre-clinical murine metabolomic data (Project PR002895 / Study ST004597) into clinical nursing insights, proposing early-warning screening biomarkers (KYNA) and a Blood-Brain Barrier (BBB) amino acid competition index for precision nutritional nursing.
+
+## 📂 Repository Structure
+
+*   `data/`: Contains the raw positive (`MSdata_ST004597_1.txt`) and negative (`MSdata_ST004597_2.txt`) ion mode mass spectrometry matrices. *(Note: Clinical metadata is dynamically fetched from the NIH NMDR cloud API during script execution).*
+*   `scripts/`: Contains four modular R scripts for data fusion, machine learning (RF, LASSO, PLS-DA), statistical evaluation, and co-metabolic network construction.
+*   `results/`: Directory for output visualization figures (PDFs) and Supplementary Tables (CSVs).
+
+## 🚀 How to Run
+
+To fully reproduce the findings and figures presented in the manuscript:
+
+1.  Clone this repository to your local machine.
+2.  Set your R working directory to the root of this repository.
+3.  Ensure the raw `.txt` files are located in your working directory (or modify the file paths in Script 01).
+4.  Run the scripts in sequential order:
+    *   Run `01_Data_Preprocessing_and_QC.R` to generate the normalized `Table_S1_Cleaned_Metabolomics_Matrix.csv`.
+    *   Run `02_Global_Profiling_and_Volcano.R` for differential analysis and Volcano Plot.
+    *   Run `03_MachineLearning_and_ClinicalIndex.R` for the Triple-Algorithm Venn diagram and BCAA/Trp Index Boxplot.
+    *   Run `04_GutBrain_Cometabolic_Network.R` to construct the targeted Spearman network.
+
+## 💻 Dependencies
+
+The analysis was performed using **R version 4.4.0**. The following R packages are required:
+*   `dplyr`, `jsonlite`, `stringr`, `reshape2` (Data manipulation)
+*   `impute` (from Bioconductor, for KNN imputation)
+*   `ggplot2`, `ggrepel`, `ggpubr`, `ggVennDiagram` (Visualization)
+*   `randomForest`, `glmnet`, `caret`, `pls` (Machine Learning Algorithms)
+*   `Hmisc`, `igraph`, `ggraph`, `tidygraph` (Network Analysis)
+
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
