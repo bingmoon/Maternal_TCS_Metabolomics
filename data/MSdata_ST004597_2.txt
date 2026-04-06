@@ -1,0 +1,11 @@
+ Metabolite_name	RefMet_name	100599-b1-C-M-001-C-M-001	100599-b1-C-M-002-C-M-002	100599-b1-C-M-A66-C-M-A66	100599-b1-C-M-A78-C-M-A78	100599-b1-MS-M-115-MS-M-115	100599-b1-MS-M-118-MS-M-118	100599-b1-MS-M-A22-MS-M-A22	100599-b1-MS-M-A59-MS-M-A59
+Factors	-	Sample source:C57 mouse serum | transfected:control	Sample source:C57 mouse serum | transfected:control	Sample source:C57 mouse serum | transfected:control	Sample source:C57 mouse serum | transfected:control	Sample source:C57 mouse serum | transfected:triclosan exposured group	Sample source:C57 mouse serum | transfected:triclosan exposured group	Sample source:C57 mouse serum | transfected:triclosan exposured group	Sample source:C57 mouse serum | transfected:triclosan exposured group
+Citrulline	Citrulline	18911.5784	13161.2554	13363.4799	12122.5642	11110.2034	13297.0125	13292.4458	11699.1880
+Diaminopimelicacid	Diaminopimelic acid	19.5556	9.4404	10.9610		22.1439	9.8665	2.8729	5.0095
+L-alpha-Aminobutyricacid	2S-Aminobutyric acid	253.1294	169.2561	178.8289	147.1393	172.7207	186.6612	178.1788	284.6776
+N8-Acetylspermidine	N8-Acetylspermidine	88.9770	87.0455	85.7012	88.7015	86.2602	86.6706	87.2403	86.7156
+N-Acetylleucine	N-Acetylleucine	64.9825	71.8534	74.0755	78.9194	7.5531	24.9204	49.0180	12.9455
+N-Acetyl-L-phenylalanine	N-Acetylphenylalanine	30.9275	31.0382	29.6987	22.4829	24.4972	23.5819	22.1889	21.0830
+Sarcosine	Sarcosine								
+Taurine	Taurine	375051.9605	302619.5894	221256.8612	400243.8908	214733.7071	281397.0546	194244.8094	274359.2514
+									
